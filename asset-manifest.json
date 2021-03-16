@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/capitole-consulting-test/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/capitole-consulting-test/static/js/main.32bbf6b1.chunk.js",
+    "main.js.map": "/capitole-consulting-test/static/js/main.32bbf6b1.chunk.js.map",
+    "runtime-main.js": "/capitole-consulting-test/static/js/runtime-main.6ce95f4a.js",
+    "runtime-main.js.map": "/capitole-consulting-test/static/js/runtime-main.6ce95f4a.js.map",
+    "static/js/2.1e59cd97.chunk.js": "/capitole-consulting-test/static/js/2.1e59cd97.chunk.js",
+    "static/js/2.1e59cd97.chunk.js.map": "/capitole-consulting-test/static/js/2.1e59cd97.chunk.js.map",
+    "static/js/3.bf5d22de.chunk.js": "/capitole-consulting-test/static/js/3.bf5d22de.chunk.js",
+    "static/js/3.bf5d22de.chunk.js.map": "/capitole-consulting-test/static/js/3.bf5d22de.chunk.js.map",
+    "index.html": "/capitole-consulting-test/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/capitole-consulting-test/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.1e59cd97.chunk.js.LICENSE.txt": "/capitole-consulting-test/static/js/2.1e59cd97.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/capitole-consulting-test/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ce95f4a.js",
+    "static/js/2.1e59cd97.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.32bbf6b1.chunk.js"
+  ]
+}
