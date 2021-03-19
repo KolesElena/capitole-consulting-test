@@ -14,7 +14,7 @@ const Cards = () => {
             <div className='grid'>
                 {cards.map(({ title, description, url }, index) => (
                     <Card
-                        key = {title}
+                        key = {index}
                         title={title}
                         index={index}
                         description = {description}
