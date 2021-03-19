@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/card-maker-app/static/css/main.58cc943b.chunk.css",
-    "main.js": "/card-maker-app/static/js/main.3c5ae924.chunk.js",
-    "main.js.map": "/card-maker-app/static/js/main.3c5ae924.chunk.js.map",
+    "main.css": "/card-maker-app/static/css/main.cb295f0b.chunk.css",
+    "main.js": "/card-maker-app/static/js/main.8280c2cd.chunk.js",
+    "main.js.map": "/card-maker-app/static/js/main.8280c2cd.chunk.js.map",
     "runtime-main.js": "/card-maker-app/static/js/runtime-main.c50335fb.js",
     "runtime-main.js.map": "/card-maker-app/static/js/runtime-main.c50335fb.js.map",
     "static/js/2.ff21f7aa.chunk.js": "/card-maker-app/static/js/2.ff21f7aa.chunk.js",
     "static/js/2.ff21f7aa.chunk.js.map": "/card-maker-app/static/js/2.ff21f7aa.chunk.js.map",
     "index.html": "/card-maker-app/index.html",
-    "static/css/main.58cc943b.chunk.css.map": "/card-maker-app/static/css/main.58cc943b.chunk.css.map",
+    "static/css/main.cb295f0b.chunk.css.map": "/card-maker-app/static/css/main.cb295f0b.chunk.css.map",
     "static/js/2.ff21f7aa.chunk.js.LICENSE.txt": "/card-maker-app/static/js/2.ff21f7aa.chunk.js.LICENSE.txt",
     "static/media/recetas-de-merluza.6097ad4c.jpeg": "/card-maker-app/static/media/recetas-de-merluza.6097ad4c.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.c50335fb.js",
     "static/js/2.ff21f7aa.chunk.js",
-    "static/css/main.58cc943b.chunk.css",
-    "static/js/main.3c5ae924.chunk.js"
+    "static/css/main.cb295f0b.chunk.css",
+    "static/js/main.8280c2cd.chunk.js"
   ]
 }
