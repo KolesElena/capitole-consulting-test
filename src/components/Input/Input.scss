@@ -1,0 +1,26 @@
+
+input {
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+@media (min-width: 600px) {
+    .modalInput {
+        margin: 2vw auto;
+        
+        input {
+            height: 2vw;;
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .modalInput {
+        margin: 10vw auto;
+
+        input {
+            height: 5vw;;
+        }
+    }
+}

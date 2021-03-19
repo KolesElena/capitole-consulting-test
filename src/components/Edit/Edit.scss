@@ -1,0 +1,20 @@
+.Edit {
+    margin-top: 15px;
+    text-align: center;
+
+    .Btn {
+        border-radius: 5px;
+        cursor: pointer;
+        background: #fff;
+        padding: .5rem 1rem;
+        font-weight: bold;
+        margin: 3px;
+        border: none;
+        color: #000000;
+
+        &:hover {
+            color: #808080;
+        }
+    }
+}
+

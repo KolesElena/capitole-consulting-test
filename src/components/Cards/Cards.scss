@@ -1,0 +1,33 @@
+.grid {
+    margin: 40px 15px;
+    grid-gap: 10px;
+}
+
+.Title {
+    text-align: center;
+    color: #4e4a4a;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 599px) {
+    .grid {
+      display: flex;
+      overflow-x: scroll;
+    }
+  
+    .Card {
+      flex: 0 0 80%;
+    }
+}
+  
+@media (min-width: 600px) {
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+}
+  
+  
+  
+  
+  

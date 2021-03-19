@@ -1,0 +1,52 @@
+.modal {
+    background: #fff;
+    border: 1px solid #ccc;
+    opacity: 1;
+    z-index: 8;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.modalForm {
+    text-align: center;
+}
+
+.modalHead {
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4e4a4a;
+    font-size: 1.5rem;
+}
+
+.closeButton {
+    font-size: 3vw;
+    position: absolute;
+    right: 5%;
+}
+
+@media (min-width: 600px) {
+    .modal {
+        width: 28.5vw;
+        height: 30vw;
+    }
+}
+
+@media (max-width: 599px) {
+    .modal {
+        width: 70vw;
+        height: 90vw;
+    }
+
+    .closeButton {
+        font-size: 3vw;
+    }
+}
+
+
