@@ -113,8 +113,8 @@ const App = () => {
           ...state.formControls[controlName],
           ...values
         }
-      }
-    });
+      },
+      isFormValid: (values.value!=='' || null) ? true : false });
   };
 
   useEffect(() => {
