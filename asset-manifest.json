@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/capitole-consulting-test/static/css/main.af2d9843.chunk.css",
-    "main.js": "/capitole-consulting-test/static/js/main.563b0138.chunk.js",
-    "main.js.map": "/capitole-consulting-test/static/js/main.563b0138.chunk.js.map",
-    "runtime-main.js": "/capitole-consulting-test/static/js/runtime-main.6a4f8d1b.js",
-    "runtime-main.js.map": "/capitole-consulting-test/static/js/runtime-main.6a4f8d1b.js.map",
-    "static/js/2.ff21f7aa.chunk.js": "/capitole-consulting-test/static/js/2.ff21f7aa.chunk.js",
-    "static/js/2.ff21f7aa.chunk.js.map": "/capitole-consulting-test/static/js/2.ff21f7aa.chunk.js.map",
-    "index.html": "/capitole-consulting-test/index.html",
-    "static/css/main.af2d9843.chunk.css.map": "/capitole-consulting-test/static/css/main.af2d9843.chunk.css.map",
-    "static/js/2.ff21f7aa.chunk.js.LICENSE.txt": "/capitole-consulting-test/static/js/2.ff21f7aa.chunk.js.LICENSE.txt",
-    "static/media/recetas-de-merluza.6097ad4c.jpeg": "/capitole-consulting-test/static/media/recetas-de-merluza.6097ad4c.jpeg"
+    "main.css": "/card-maker-app/static/css/main.af2d9843.chunk.css",
+    "main.js": "/card-maker-app/static/js/main.563b0138.chunk.js",
+    "main.js.map": "/card-maker-app/static/js/main.563b0138.chunk.js.map",
+    "runtime-main.js": "/card-maker-app/static/js/runtime-main.c50335fb.js",
+    "runtime-main.js.map": "/card-maker-app/static/js/runtime-main.c50335fb.js.map",
+    "static/js/2.ff21f7aa.chunk.js": "/card-maker-app/static/js/2.ff21f7aa.chunk.js",
+    "static/js/2.ff21f7aa.chunk.js.map": "/card-maker-app/static/js/2.ff21f7aa.chunk.js.map",
+    "index.html": "/card-maker-app/index.html",
+    "static/css/main.af2d9843.chunk.css.map": "/card-maker-app/static/css/main.af2d9843.chunk.css.map",
+    "static/js/2.ff21f7aa.chunk.js.LICENSE.txt": "/card-maker-app/static/js/2.ff21f7aa.chunk.js.LICENSE.txt",
+    "static/media/recetas-de-merluza.6097ad4c.jpeg": "/card-maker-app/static/media/recetas-de-merluza.6097ad4c.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a4f8d1b.js",
+    "static/js/runtime-main.c50335fb.js",
     "static/js/2.ff21f7aa.chunk.js",
     "static/css/main.af2d9843.chunk.css",
     "static/js/main.563b0138.chunk.js"
