@@ -37,7 +37,7 @@ const Tarjeta = () => {
                 {renderInputs()}
             </div>
             <div className='modalBtn'>
-                <Button text='Añadir' disabled ={!state.isFormValid} click = { addNewCardHandler } />
+                <Button text='Añadir' click = { addNewCardHandler } />
             </div>
         </form>
     )

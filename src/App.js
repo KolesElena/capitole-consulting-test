@@ -68,7 +68,10 @@ const App = () => {
   }
 
   const showButtonsHandler = () => {
-    setState({...state, showButtons: true})
+    setState({
+      ...state,
+      showButtons: true
+    });
   }
 
   const editHandler = ({ title, description, url, index }) => {
@@ -110,8 +113,8 @@ const App = () => {
           ...state.formControls[controlName],
           ...values
         }
-      },
-      isFormValid: (values.value!=='' || null) ? true : false });
+      }
+    });
   };
 
   useEffect(() => {
