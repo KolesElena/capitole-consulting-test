@@ -10,10 +10,13 @@ import * as yup from 'yup';
 const Tarjeta = () => {
 
     const schema = yup.object().shape({
-
+        title: yup.string().required(),
+        description: yup.string().required()
     })
 
-    const { register, handleSubmit, errors } = useForm();
+    const { register, handleSubmit, errors } = useForm({
+        resolver: yupResolver(schema)
+    });
 
     const { addNewCardHandler, state, onChangeHandler } = useContext(RateContext);
 
@@ -35,7 +38,7 @@ const Tarjeta = () => {
                 placeholder = {control.placeholder}
                 valid = {control.valid}
                 touched = {control.touched}
-                ref={register}
+                ref={register({ required: true })}
                 onChange = {(event) => onChangeHandler(event, controlName)
                 }
               />
