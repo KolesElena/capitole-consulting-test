@@ -8,3 +8,5 @@ The cards can be edited or delited using the 'Edit' or 'Delete' buttons at the b
 
 In the mobile version, the cards are implemented as a slider.
 
+You can quickly check out the app on the Github pages by following this link:
+https://koleselena.github.io/card-maker-app/
