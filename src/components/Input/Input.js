@@ -2,21 +2,18 @@ import { text } from '@fortawesome/fontawesome-svg-core';
 import React from 'react';
 import './Input.scss';
 
-const Input = (props) => {
-
-    const inputType = props.type || text;
+const Input = (props, ref) => {
 
     return (
         <div className='modalInput'>
             <input 
-                type = {inputType}
-                value = {props.value}
-                placeholder = {props.placeholder}
-                required = {props.required}
-                onChange = {props.onChange}
+                ref={ref}
+                {...props}
             />
         </div>
     )
 }
 
-export default Input;
+const forwardedInput = React.forwardRef(Input)
+
+export default forwardedInput;

@@ -6,7 +6,7 @@ import Edit from '../Edit/Edit';
 const Card = (props) => {
 
     return (
-        <div className='Card' onMouseOver = {props.edit}>
+        <div className='Card'>
             <img src={props.url || defaultImage} alt=''/>
             <div className='cardTitleWrap'><h1 className='cardTitle'>{props.title}</h1></div>
             <div className ='cardDescription'>{props.description}</div>

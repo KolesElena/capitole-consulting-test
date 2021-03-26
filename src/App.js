@@ -26,7 +26,6 @@ const initialState = {
    }
  },
  showModal: false,
- showButtons: false,
  isFormValid: false
 };
 
@@ -34,66 +33,56 @@ const App = () => {
   const [cards, setCards] = useState(initialCards || []);
   const [state, setState] = useState(initialState);
 
-  const addNewCard = (card) => {
-    setCards([...cards, card]);
-  };
+  const addNewCard = (card) => setCards([...cards, card]);
 
   const modalShowHandler = () => {
     setState({ ...initialState, showModal: true });
   }
 
-  const modalHideHandler= () => {
-    setState(initialState);
-  }
+  const modalHideHandler= () => setState(initialState);
 
-  const addNewCardHandler= () => {
-    const newCard = {
-      title: state.formControls.title.value,
-      description: state.formControls.description.value,
-      url: state.formControls.url.value,
-    };
-    
-    if (!isNaN(state.index)) {
+  const addNewCardHandler = (newCard) => {
+
+    if (!isNaN(state.editingCardIndex)) {
       const editedCards = cards.map((value, index) => {
-        if (index === state.index) {
+        if (index === state.editingCardIndex) {
+          console.log('hola')
          return newCard;
         }
+        console.log(value)
         return value;
+        
       });
       setCards(editedCards);
     } else {
       addNewCard(newCard);
+      console.log('new card')
     }
     setState(initialState);
   }
 
-  const showButtonsHandler = () => {
-    setState({
-      ...state,
-      showButtons: true
-    });
-  }
-
-  const editHandler = ({ title, description, url, index }) => {
+  const editHandler = ({ title, description, url, index}) => {
+    
     setState({
       ...state,
       showModal: true,
-      index,
+      editingCardIndex: index,
       formControls: {
         title: {
           ...state.formControls.title,
-          value: title,
+          value: title
         },
         description: {
           ...state.formControls.description,
-          value: description,
+          value: description
         },
         url: {
           ...state.formControls.url,
-          value: url,
+          value: url
         }
       }
     });
+    console.log(state.showModal)
   }
 
   const deleteHandler = (indexToDelete) => {
@@ -122,7 +111,7 @@ const App = () => {
   }, [cards]);
 
   return (
-    <RateContext.Provider value={{state, cards, addNewCardHandler, modalShowHandler, modalHideHandler, showButtonsHandler, editHandler, deleteHandler, onChangeHandler}}>
+    <RateContext.Provider value={{state, cards, addNewCardHandler, modalShowHandler, modalHideHandler, editHandler, deleteHandler, onChangeHandler}}>
       <Dark showModal = {state.showModal}/>
       <Modal/>
       <Layout />

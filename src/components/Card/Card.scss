@@ -5,6 +5,10 @@
     max-width: 250px;
     position: relative;
 
+    &:hover .Edit {
+        display: block;
+    }
+
     .cardTitle, .cardDescription {
         padding-left: 15px;
     }
