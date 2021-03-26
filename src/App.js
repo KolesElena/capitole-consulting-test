@@ -46,17 +46,14 @@ const App = () => {
     if (!isNaN(state.editingCardIndex)) {
       const editedCards = cards.map((value, index) => {
         if (index === state.editingCardIndex) {
-          console.log('hola')
          return newCard;
         }
-        console.log(value)
         return value;
         
       });
       setCards(editedCards);
     } else {
       addNewCard(newCard);
-      console.log('new card')
     }
     setState(initialState);
   }
@@ -82,7 +79,6 @@ const App = () => {
         }
       }
     });
-    console.log(state.showModal)
   }
 
   const deleteHandler = (indexToDelete) => {
