@@ -4,7 +4,7 @@ import './Cards.scss';
 import { RateContext } from '../../context/RateContext';
 
 const Cards = () => {
-    const { cards } = useContext(RateContext);
+    const { cards, editHandler, deleteHandler } = useContext(RateContext);
 
     return (
         <div>
@@ -17,6 +17,8 @@ const Cards = () => {
                         index={index}
                         description = {description}
                         url={url}
+                        editHandler={editHandler}
+                        deleteHandler={deleteHandler}
                     />
                 ))}
             </div>

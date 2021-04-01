@@ -34,14 +34,14 @@
 @media (min-width: 600px) {
     .modal {
         width: 28.5vw;
-        height: 30vw;
+        height: 40vw;
     }
 }
 
 @media (max-width: 599px) {
     .modal {
-        width: 70vw;
-        height: 90vw;
+        width: 80vw;
+        height: 120vw;
     }
 
     .closeButton {

@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from 'react';
+import React, { Fragment, useContext } from 'react';
 import './Tarjeta.scss';
 import { RateContext } from '../../context/RateContext';
 import Button from '../Button/Button';
@@ -29,10 +29,9 @@ const Tarjeta = () => {
 
           
           return (
-
+            <Fragment key={i}>
               <Input
                 name={controlName}
-                key = {controlName + i}
                 type = {control.type}
                 value = {control.value}
                 placeholder = {control.placeholder}
@@ -42,6 +41,8 @@ const Tarjeta = () => {
                 onChange = {(event) => onChangeHandler(event, controlName)
                 }
               />
+              <p className='error'>{errors[controlName] ? `${control.placeholder} es un campo obligatorio`: null}</p>
+            </Fragment>
           )
         })
       }
